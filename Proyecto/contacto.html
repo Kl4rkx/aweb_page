@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+
+	<hr>
+    
+        <header id="main-header">
+        
+            <nav>
+            <center>
+                <img src="img/linkalogo.png" alt="Logo de Linka" class="logo" width="90">
+                
+                <br>
+                <a href="home.html">Home / </a>
+                
+                <a href="noticias.html">Noticias / </a>
+                
+                <a href="fotos.html">Fotos / </a>
+
+                <a href="multimedia.html">Multimedia / </a>
+
+                <a href="contacto.html">Contacto</a>
+            </center>
+            </nav>
+
+        </header>
+    <hr>
+
+    <form action="gracias.html">
+        <table>
+            <tr>
+                <td><p>Nombre:</p> </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><p>Primer apellido:</p> </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><p>Teléfono:</p> </td>
+                <td><input type="tel" name="telefono"></td>
+            </tr>
+            <tr>
+                <td><p>Email:</p> </td>
+                <td><input required type="email" name="credenciales" id="email" required></td>
+            </tr>
+            <tr>
+                <td><p>Asunto:</p> </td>
+                <td><input required type="text" name="asunto" id="asunto" required></td>
+            </tr>
+            <tr>
+                <td><p>Mensaje:</p> </td>
+                <td><textarea name="mensaje" id="mensaje"></textarea></td>
+            </tr>
+            <tr>
+                <td><p>Sexo:</p> </td>
+                <td>
+                    <input type="radio" name="provincia" id="Masculino"> <label for="Masculino">Masculino         
+                    
+                    <input type="radio" name="provincia" id="Femenino"> <label for="Femenino">Femenino</label>
+
+                    <input type="radio" name="provincia" id="Otro"> <label for="Otro">Otro</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Enviar</button>
+                </td>
+            </tr>
+        </table>    
+    </form>
+
+</body>
+</html>
